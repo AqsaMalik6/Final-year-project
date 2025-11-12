@@ -66,7 +66,7 @@ MeasureMate is a mobile application built with Flutter that enables **precise, r
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/ZaheerAfzal1408/MeasureMate.git
+   git clone https://github.com/AqsaMalik6/Final-year-project.git
    cd MeasureMate
 2. Install dependencies
    ```bash
