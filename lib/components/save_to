@@ -1,0 +1,47 @@
+
+// import 'dart:io';
+// import 'package:flutter/material.dart';
+// import 'package:image_gallery_saver/image_gallery_saver.dart';
+// import 'package:path_provider/path_provider.dart';
+// import 'package:fluttertoast/fluttertoast.dart';
+
+
+// Future<void> saveImageToGallery(String imagePath) async {
+//   try {
+//     // Read the image file
+//     File imageFile = File(imagePath);
+
+//     if (imageFile.existsSync()) {
+//       // Save the image to the gallery
+//       final result = await ImageGallerySaver.saveFile(imageFile.path);
+
+//       // Check the result and show success message
+//       if (result != null) {
+//         Fluttertoast.showToast(
+//           msg: "Image saved to gallery",
+//           toastLength: Toast.LENGTH_SHORT,
+//           gravity: ToastGravity.BOTTOM,
+//           backgroundColor: Colors.green,
+//           textColor: Colors.white,
+//         );
+//       }
+//     } else {
+//       Fluttertoast.showToast(
+//         msg: "Image not found",
+//         toastLength: Toast.LENGTH_SHORT,
+//         gravity: ToastGravity.BOTTOM,
+//         backgroundColor: Colors.red,
+//         textColor: Colors.white,
+//       );
+//     }
+//   } catch (e) {
+//     // Handle any error that occurs
+//     Fluttertoast.showToast(
+//       msg: "Failed to save image: $e",
+//       toastLength: Toast.LENGTH_SHORT,
+//       gravity: ToastGravity.BOTTOM,
+//       backgroundColor: Colors.red,
+//       textColor: Colors.white,
+//     );
+//   }
+// }

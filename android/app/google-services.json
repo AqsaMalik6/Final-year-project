@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "394695513621",
+    "project_id": "measurement-671d6",
+    "storage_bucket": "measurement-671d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394695513621:android:96da15b1ce354cc41be01c",
+        "android_client_info": {
+          "package_name": "com.example.measuremate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxAhP-PIcPBhLsQO8Uh0mAlfesnK8DQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
